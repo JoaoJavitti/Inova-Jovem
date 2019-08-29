@@ -1,0 +1,300 @@
+@media screen and (max-device-width:767px) {
+    /* section */
+    section {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+        flex-grow: 1;
+    }
+    /* Usuário */
+    #userContent {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        position: relative;
+        background-color: #0E0B16;
+        color: #E7DFDD;
+        width: 100%;
+        height: 650px;
+        padding: 5px 0;
+        margin-top: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 30px;
+    }
+    .userAvatar {
+        margin: 0 auto;
+        margin-top: 206px;
+        width: 200px;
+        height: 200px;
+        border: #0E0B16 solid 4px;
+        border-radius: 100px;
+    }
+    .userBackground {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        width: calc(100% - 30px);
+        height: 300px;
+        background-image: url("http://www.twitrcovers.com/wp-content/uploads/2013/04/Tower-Skyscrapers-l.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+    }
+    .userName {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .user {
+        font-size: 25px;
+        font-weight: 300;
+    }
+    .userBio {
+        padding: 0 10px;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: 500;
+    }
+    /* comentários */
+    #commentContent {
+        display: flex;
+        margin: 5px 0;
+        flex-direction: column;
+        width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .comment {
+        width: calc(100% - 10px);
+        background-color: #0E0B16;
+        color: #E7DFDD;
+        border: #A239CA solid 2px;
+        margin: 0;
+        padding: 3px;
+        min-height: 200px;
+        border-radius: 15px;
+        margin-bottom: 5px;
+    }
+    .comment p {
+        padding: 0 20px;
+        font-size: 26px;
+        font-weight: 500;
+        font-style: italic;
+    }
+    .commentUser {
+        display: flex;
+        align-items: center;
+    }
+    .commentAvatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        margin: 0 20px;
+        margin-top: 10px;
+    }
+    .commentName {
+        padding: 0;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .commentButtons {
+        padding: 3px 20px;
+    }
+    .commentButtons button {
+        border: none;
+        background-color: #eee;
+        color: #111;
+        height: 50px;
+        padding: 10px 15px;
+        border-radius: 25px;
+        font-size: 28px;
+    }
+    #newComment {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 10px);
+        background-color: #0E0B16;
+        color: #E7DFDD;
+        border: #A239CA solid 2px;
+        margin: 0;
+        padding: 3px;
+        min-height: 300px;
+        border-radius: 15px;
+        margin-bottom: 5px;
+    }
+    .newCommentUser {
+        padding: 10px 20px;
+    }
+    .newCommentUser a {
+        font-size: 30px;
+    }
+    .newCommentArea textarea {
+        margin: 10px;
+        padding: 10px 20px;
+        border: 0;
+        width: calc(100% - 60px);
+        height: 200px;
+        resize: none;
+        border-radius: 30px;
+        font-size: 28px;
+    }
+    .newCommentArea a {
+        padding: 5px 15px;
+        font-size: 26px;
+    }
+    .newCommentArea .commentButtons {
+        padding: 3px 10px;
+    }
+    .newCommentArea button {
+        margin: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-device-width:768px) {
+    /* section */
+    section {
+        display: flex;
+        padding: 5px 0;
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        flex-grow: 1;
+    }
+    /* Usuário */
+    #userContent {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        position: relative;
+        background-color: #0E0B16;
+        color: #E7DFDD;
+        width: 280px;
+        height: 300px;
+        padding: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 20px;
+    }
+    .userAvatar {
+        margin: 0 auto;
+        margin-top: 61px;
+        width: 100px;
+        height: 100px;
+        border: #0E0B16 solid 4px;
+        border-radius: 50px;
+    }
+    .userBackground {
+        position: absolute;
+        top: 10px;
+        left: calc(50% - 135px);
+        width: 270px;
+        height: 105px;
+        background-image: url("http://www.twitrcovers.com/wp-content/uploads/2013/04/Tower-Skyscrapers-l.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+    }
+    .userName {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .user {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .userBio {
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 500;
+    }
+    /* comentários */
+    #commentContent {
+        display: flex;
+        margin: 0;
+        margin-left: 5px;
+        flex-direction: column;
+        width: calc(100% - 280px);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .comment {
+        width: calc(100% - 10px);
+        background-color: #0E0B16;
+        color: #E7DFDD;
+        border: #A239CA solid 2px;
+        margin: 0;
+        padding: 3px;
+        min-height: 150px;
+        border-radius: 15px;
+        margin-bottom: 5px;
+    }
+    .comment p {
+        padding: 0 5px;
+        font-size: 14px;
+        font-weight: 500;
+        font-style: italic;
+    }
+    .commentUser {
+        display: flex;
+        align-items: center;
+    }
+    .commentAvatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        margin: 0 10px;
+    }
+    .commentName {
+        padding: 0;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .commentButtons {
+        padding: 3px 20px;
+    }
+    .commentButtons button {
+        border: none;
+        background-color: #eee;
+        color: #111;
+        height: 30px;
+        border-radius: 15px;
+    }
+    #newComment {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 10px);
+        background-color: #0E0B16;
+        color: #E7DFDD;
+        border: #A239CA solid 2px;
+        margin: 0;
+        padding: 3px;
+        min-height: 150px;
+        border-radius: 15px;
+        margin-bottom: 5px;
+    }
+    .newCommentUser {
+        padding: 5px 10px;
+    }
+    .newCommentArea textarea {
+        margin: 5px;
+        padding: 5px 10px;
+        border: 0;
+        width: calc(100% - 30px);
+        height: 100px;
+        resize: none;
+        border-radius: 15px;
+    }
+    .newCommentArea a {
+        padding: 5px;
+    }
+    .newCommentArea .commentButtons {
+        padding: 3px 10px;
+    }
+    .newCommentArea button {
+        margin: 0;
+        margin-top: 10px;
+        width: calc(100%);
+    }
+}

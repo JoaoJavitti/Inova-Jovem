@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/styleDashboard.css" />
+</head>
+
+<body>
+    <header id="headerContent">
+        <nav>
+            <a href="main.html" class="logo">Inova Jovem</a>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="pesquisar.html">Pesquisar</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="userContent">
+            <div class="userBackground" style="z-index:1;"></div>
+            <img class="userAvatar" style="z-index:2;" src="https://avatars2.githubusercontent.com/u/2254731?v=4" />
+            <a class="userName">Diego Fernandes</a>
+            <a class="user">@diego3g</a>
+            <p class="userBio">CTO na @Rocketseat. Apaixonado por Javascript, ReactJS, React Native, NodeJS e todo ecossistema em torno dessas tecnologias.</p>
+        </div>
+        <div id="commentContent">
+            <div id="newComment">
+                <div class="newCommentUser">
+                    <a class="commentName">Logado como Allanzinh0</a>
+                </div>
+                <div class="newCommentArea">
+                    <textarea maxlength="500" placeholder="Digite aqui seu comentário..."></textarea>
+                    <a>0/500 caracteres</a>
+                    <div class="commentButtons">
+                        <button>Enviar novo comentário</button>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="commentUser">
+                    <img class="commentAvatar" src="https://avatars2.githubusercontent.com/u/861751?v=4" />
+                    <a class="commentName">Robson Marques</a>
+                </div>
+                <p>"Este é o comentário do Robson Marques"</p>
+                <div class="commentButtons">
+                    <button>Like</button>
+                    <button>Responder</button>
+                    <button>Reportar</button>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="commentUser">
+                    <img class="commentAvatar" src="https://avatars2.githubusercontent.com/u/861751?v=4" />
+                    <a class="commentName">Robson Marques</a>
+                </div>
+                <p>"Este é o comentário do Robson Marques"</p>
+                <div class="commentButtons">
+                    <button>Like</button>
+                    <button>Responder</button>
+                    <button>Reportar</button>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <p>Todos os direitos reservados a Allanzinh0.</p>
+    </footer>
+</body>
+
+</html>

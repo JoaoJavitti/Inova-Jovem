@@ -1,0 +1,161 @@
+@media screen and (max-device-width:767px) {
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    /* Cores usadas:
+    #0E0B16
+    #E7DFDD
+    #4717F6
+    #A239CA
+*/
+    /* Login container */
+    button {
+        margin: 10px 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #0E0B16;
+        color: #E7DFDD;
+        font-size: 35px;
+    }
+    #loginContainer {
+        margin: auto;
+        padding: 20px;
+        background-color: #0E0B16;
+        color: #E7DFDD;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90%;
+        border-radius: 25px;
+    }
+    #loginContainer input {
+        width: calc(100% - 40px);
+        padding: 20px;
+        margin: 20px 0;
+        height: 30px;
+        border: 0;
+        border-radius: 35px;
+        font-size: 35px;
+    }
+    #buttonsContainer {
+        margin: 5px 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    #buttonsContainer button {
+        background-color: #FFFFFF;
+        color: #0E0B16;
+        width: 48%;
+        height: 50px;
+        border: 0;
+        border-radius: 25px;
+    }
+    #loginContainer div .button {
+        background-color: #FFFFFF;
+        color: #0E0B16;
+        width: 100%;
+        height: 50px;
+        border: 0;
+        border-radius: 25px;
+        margin-top: 10px;
+    }
+    .logo {
+        padding: 15px 0;
+        width: 100%;
+        text-decoration: none;
+        text-align: center;
+        font-size: 75px;
+        font-weight: bold;
+        font-family: 'Courgette', cursive;
+        color: #4717F6;
+    }
+    /* section */
+    section {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        width: calc(100% - 10px);
+        max-width: 995px;
+        margin: 0 auto;
+        flex-grow: 1;
+    }
+}
+
+@media screen and (min-device-width:768px) {
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    /* Cores usadas:
+    #0E0B16
+    #E7DFDD
+    #4717F6
+    #A239CA
+*/
+    /* Login container */
+    #loginContainer {
+        margin: auto;
+        padding: 10px;
+        background-color: #0E0B16;
+        color: #E7DFDD;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 300px;
+        border-radius: 10px;
+    }
+    #loginContainer input {
+        width: calc(100% - 10px);
+        padding: 4px 5px;
+        margin: 10px 0;
+        height: 26px;
+        border: 0;
+        border-radius: 17px;
+        font-size: 14px;
+    }
+    #buttonsContainer {
+        margin: 5px 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    #buttonsContainer button {
+        background-color: #FFFFFF;
+        color: #0E0B16;
+        width: 48%;
+        height: 30px;
+        border: 0;
+        border-radius: 15px;
+    }
+    #loginContainer div .button {
+        background-color: #FFFFFF;
+        color: #0E0B16;
+        width: 100%;
+        height: 30px;
+        border: 0;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .logo {
+        text-decoration: none;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Courgette', cursive;
+        color: #4717F6;
+    }
+    /* section */
+    section {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        width: calc(100% - 10px);
+        max-width: 995px;
+        margin: 0 auto;
+        flex-grow: 1;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styleMain.css" />
+</head>
+
+<body>
+    <header id="headerContent">
+        <nav>
+            <a href="main.html" class="logo">Inova Jovem</a>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="pesquisar.html">Pesquisar</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="carrosselContent">
+            <button onclick="preCarrossel()"><</button>
+            <div class="carrossel carrossel-1" id="carrossel-1">
+                <img src="https://img.olhardigital.com.br/uploads/acervo_imagens/2019/03/r16x9/20190322051919_1200_675_-_codigo_de_programacao.jpg" />
+            </div>
+            <div class="carrossel carrossel-2" id="carrossel-2">
+                <img src="https://itmidia.com/wp-content/uploads/sites/5/2019/06/linguagem-programacao.jpg" />
+            </div>
+            <div class="carrossel carrossel-3" id="carrossel-3">
+                <img src="https://cdn.ome.lt/O-WDpNqowizX47RXmCNTxSPxy1c=/1200x630/smart/extras/conteudos/34_QMXsb8b.png" />
+            </div>
+            <button onclick="proxCarrossel()">></button>
+        </div>
+        <div id="content01">
+            <p>Este projeto foi criado com o intuito de ajudar desenvolvedores e clientes de diversos serviços a se comunicar, assim melhorando o serviço de acordo com os gostos dos consumidores do mesmo.</p>
+        </div>
+    </section>
+    <footer>
+        <p>Todos os direitos reservados a Allanzinh0.</p>
+    </footer>
+    <script src="./js/carrossel.js"></script>
+</body>
+
+</html>

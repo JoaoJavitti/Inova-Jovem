@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styleCadastrar.css" />
+    <script src="./js/back.js"></script>
+</head>
+
+<body>
+    <section>
+        <div id="loginContainer">
+            <a href="main.html" class="logo">Inova Jovem</a>
+            <div>
+                <div class="formElement">
+                    <label>Nome completo:</label>
+                    <input type="text" placeholder="Nome completo..." />
+                </div>
+                <div class="formElement">
+                    <label>Usuário:</label>
+                    <input type="text" placeholder="Usuário..." />
+                </div>
+                <div class="formElement">
+                    <label>Seu e-mail:</label>
+                    <input type="email" placeholder="Seu e-mail aqui..." />
+                    <input type="email" placeholder="Confirme seu e-mail..." />
+                </div>
+                <div class="formElement">
+                    <label>Sua senha:</label>
+                    <input type="password" placeholder="Sua senha aqui..." />
+                    <input type="password" placeholder="Repita sua senha..." />
+                </div>
+                <div class="formElement">
+                    <label>Você é:</label>
+                    <div class="selectionButton">
+                        <input type="radio" name="user/empresa" checked />
+                        <A class="choice">Usuário</A>
+                        </br>
+                        <input type="radio" name="user/empresa" />
+                        <A class="choice">Empresa</A>
+                    </div>
+                </div>
+                <div class="formElement">
+                    <label>Bio:</label>
+                    <textarea maxlength="500" placeholder="Sua bio..."></textarea>
+                    <a>0/500 caracteres</a>
+                </div>
+                <div class="formElement">
+                    <label>Foto de perfil:</label></br>
+                    <input type="file" />
+                </div>
+                <div class="formElement">
+                    <label>Foto de capa:</label></br>
+                    <input type="file" />
+                </div>
+                <div class="formElement">
+                    <label>CNPJ:</label>
+                    <input type="text" placeholder="CNPJ da empresa..." />
+                </div>
+                <div id="buttonsContainer">
+                    <button onclick="backPage()">Voltar</button>
+                    <button>Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
